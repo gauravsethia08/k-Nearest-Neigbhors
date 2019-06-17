@@ -39,6 +39,7 @@ for i,k in enumerate(n):
     test_accuracy[i] = knn.score(x_test, y_test)
     
 #Plotting a graph for find optimal k value
+#Maxima of test curve corresponds the the optimal k value
 plt.title("KNN varying wih number of Neigbors")
 plt.plot(n, test_accuracy, label="Test")
 plt.plot(n, train_accuracy, label="Train")
