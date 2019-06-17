@@ -2,6 +2,16 @@
 kNN is one of many supervised learning algorithms, used in data mining and machine learning. Its is classifier algorithm where the learning in based on how similar is a data from other. 
 kNN can be used for both classification and regression predective problems.
 
+# Pseduo Code
+1) Load the data
+2) Initialize the value of k
+3) For getting the predicted classes, iterate from 1 to total numer of training data point
+      (i)   Calculate distance between test data and each row of training data.
+      (ii)  Sort the calculated distances i ascending order
+      (iii) Get the top k rows of the sorted array
+      (iv)  Get the most frequent class of these rows
+      (v)   Return the predicted class
+      
 # Pros 
 1) No assumption about data - useful for non linear data.
 2) Simple Algortihm
